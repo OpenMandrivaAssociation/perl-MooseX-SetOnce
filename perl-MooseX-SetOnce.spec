@@ -1,5 +1,5 @@
 %define upstream_name    MooseX-SetOnce
-%define upstream_version 0.100471
+%define upstream_version 0.100472
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -14,8 +14,10 @@ Source0:    http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upst
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Moose)
 BuildRequires: perl(Moose::Role)
+BuildRequires: perl(Test::Fatal)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Try::Tiny)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
