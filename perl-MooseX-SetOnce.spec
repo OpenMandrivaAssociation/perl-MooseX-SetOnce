@@ -1,5 +1,5 @@
 %define upstream_name    MooseX-SetOnce
-%define upstream_version 0.100473
+%define upstream_version 0.200000
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
