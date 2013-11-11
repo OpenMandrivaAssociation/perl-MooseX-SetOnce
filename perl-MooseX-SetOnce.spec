@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-SetOnce
-%define upstream_version 0.200000
+%define upstream_version 0.200002
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Write-once, read-many attributes for Moose
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-SetOnce-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -70,3 +70,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Wed Jul 14 2010 cpan2dist 0.100471-1mdv
 - initial mdv release, generated with cpan2dist
+

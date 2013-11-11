@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-SetOnce-0.200000.tar.gz: 5ba8c051510607031e2b2ee66b3840bd32f13626
 sources:
-  "MooseX-SetOnce-0.200000.tar.gz": 5ba8c051510607031e2b2ee66b3840bd32f13626
+  MooseX-SetOnce-0.200002.tar.gz: 6017e803da6ebee4ec7f8a0843d00ea833f5b4cf
