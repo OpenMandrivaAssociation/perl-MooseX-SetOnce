@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-SetOnce
-%define upstream_version 0.200002
+%define upstream_version 0.203
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Write-once, read-many attributes for Moose
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-SetOnce-%{upstream_version}.tar.gz
+Url:		https://github.com/rjbs/MooseX-SetOnce
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/MooseX-SetOnce-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
