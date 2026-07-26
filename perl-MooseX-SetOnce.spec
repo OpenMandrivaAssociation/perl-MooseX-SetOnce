@@ -1,15 +1,13 @@
 %define upstream_name    MooseX-SetOnce
-%define upstream_version 0.203
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.203
+Release:	2
 
 Summary:	Write-once, read-many attributes for Moose
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/rjbs/MooseX-SetOnce
-Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/MooseX-SetOnce-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/MooseX-SetOnce-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -34,7 +32,7 @@ If the attribute has a clearer, you may clear the attribute and set it
 again.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
